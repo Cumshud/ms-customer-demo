@@ -1,0 +1,17 @@
+logging:
+  level:
+    ROOT: INFO  #butun app-in log seviyyesin belirleyirik root-da
+    az.mybank.ms.customer: DEBUG   #menim yazdigin kodlar ucun (log-lar) hansi modda calishsin onu beleirleyirik
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:7755/banking
+    username: mybank
+    password: bankSecret!816@@
+  liquibase:
+    enabled: true
+    default-schema: public
+    change-log: classpath:db/changelog-master.yml
+
+server:
+  port: 9834

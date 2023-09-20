@@ -1,0 +1,9 @@
+services:
+  database:
+    image: 'postgres:15.2'
+    ports:
+      - '7755:5432'
+    environment:
+      - 'POSTGRES_USER=mybank'
+      - 'POSTGRES_DB=banking'
+      - 'POSTGRES_PASSWORD=bankSecret!816@@'

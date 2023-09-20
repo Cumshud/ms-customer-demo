@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>Customer Queries</comment>
+
+    <entry key="customer.query.findByCustomerId">
+        <![CDATA[
+               SELECT * FROM customer WHERE id=:id
+        ]]>
+    </entry>
+
+    <entry key="customer.query.createCustomer">
+        <![CDATA[
+              INSERT INTO customer(id, name, surname, address, cif, pin)
+              VALUES (:id, :name, :surname, :address, :cif, :pin);
+        ]]>
+    </entry>
+
+</properties>

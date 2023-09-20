@@ -1,0 +1,15 @@
+insert into customer values (1, 'Jumshud', 'Asadzada', 'Baku', '1732003','7XXOGH1');
+insert into customer values (2, 'Mahmud', 'Aliyev', 'Baku', '123711','9UHHA12');
+insert into customer values (3, 'John', 'Mark', 'London', '6712','3UJ1H');
+insert into customer values (4, 'Nigar', 'Aliyeva', 'Sumqayit', '561423','U98K1J');
+insert into customer values (5, 'Vusal', 'Mahirov', 'Quba', '71236','PLSQL1');
+insert into customer values (6, 'Narmin', 'Resulova', 'Naxcivan', '128831','LK5U');
+insert into customer values (7, 'Kamran', 'Kamran', 'Baku', '712800','LK1J');
+insert into customer values (8, 'Nihad', 'Nagiyev', 'Baku', '876132','KT1RB3');
+insert into customer values (9, 'Kenan', 'Mahmudov', 'Baku', '99143112','VY113H');
+insert into customer values (10, 'Elman', 'Memmedov', 'Mingecevir', '1732003','DF13CC');
+insert into customer values (11, 'Kazim', 'Qasimov', 'Baku', '123111','987FF1');
+insert into customer values (12, 'Tehran', 'Memmedov', 'Baku', '71812','KJD1MN');
+insert into customer values (13, 'Imran', 'Memmedli', 'Baku', '127635','PL54T1');
+insert into customer values (14, 'Tehran', 'Esedov', 'Baku', '276512','98505');
+insert into customer values (15, 'Cabbar', 'Haciyev', 'Baku', '12311','GF1TR4');
